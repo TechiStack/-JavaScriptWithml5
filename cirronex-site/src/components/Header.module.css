@@ -1,0 +1,29 @@
+.header {
+  background: var(--color-primary);
+  color: var(--color-neutral-100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-5);
+}
+.logo img {
+  height: 40px;
+  display: block;
+}
+.nav {
+  display: flex;
+  gap: var(--space-4);
+}
+.nav a {
+  color: var(--color-neutral-100);
+  font-weight: 500;
+}
+.nav a:hover {
+  color: var(--color-accent);
+}
+.cta {
+  background: var(--color-accent);
+  color: var(--color-neutral-600);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+}
